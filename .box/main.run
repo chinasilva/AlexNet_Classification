@@ -1,0 +1,1 @@
+{"config":"{\"optimizerArgs\":{},\"lossArgs\":{},\"outputLossArgs\":{\"outputConsole\":true,\"lossInterval\":10},\"realTimeArgs\":{},\"G_optimzierArgs\":{},\"D_optimzierArgs\":{},\"epochs\":10,\"batchSize\":64,\"outputLoss\":true}","id":1,"isViewed":true,"linkList":[],"mode":2,"name":"main","nodeList":[],"type":"run"}
