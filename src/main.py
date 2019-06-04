@@ -70,6 +70,7 @@ def main():
 				correct += (predicted == target).sum()
 				accuracy = correct.float() / total
 			print("[epochs - {0}]Accuracy:{1}%".format(i + 1, (100 * accuracy)))
-		torch.save(net, "models/net.pth")
-
+		# torch.save(net, "models/net.pth")
+	torch.save(model_object.state_dict(), 'AlexNet_Classification/models/net.pkl')
+	# model_object.load_state_dict(torch.load('params.pkl'))
 
