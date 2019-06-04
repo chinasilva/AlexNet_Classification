@@ -55,8 +55,8 @@ def main():
 			if j % 10 == 0:
 				losses.append(loss.float())
 				print("[epochs - {0} - {1}/{2}]loss: {3}".format(i, j, len(dataloader), loss.float()))
-			time_elapsed = time.time() - since
-			print('time_cost:{}'.format(time_elapsed))
+		time_elapsed = time.time() - since
+		print('time_cost:{}'.format(time_elapsed))
 
 		with torch.no_grad():
 			net.eval()
